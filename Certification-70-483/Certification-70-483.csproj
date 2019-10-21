@@ -42,11 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter-01\Objective-01-01\Threading14.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading13.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading12.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading11.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading10.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading09.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading08.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading07.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading06.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading05.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading04.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading03.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading02.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading01.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\IStarting.cs" />
+    <Compile Include="Shared\Starting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
