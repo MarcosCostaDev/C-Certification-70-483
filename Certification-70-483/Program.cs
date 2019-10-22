@@ -11,7 +11,7 @@ namespace Certification_70_483
     {
         static void Main(string[] args)
         {
-            new Threading17(args);
+            new Threading18(args);
 
         }
     }
