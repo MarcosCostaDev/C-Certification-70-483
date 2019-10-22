@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter-01\Objective-01-01\Threading17.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading16.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading15.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading14.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading13.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading12.cs" />

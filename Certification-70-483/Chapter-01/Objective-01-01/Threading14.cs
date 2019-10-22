@@ -11,36 +11,36 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using Task.WaitAll
     class Threading14 : Starting
     {
-
+        //you can use the method WaitAll to wait for multiple Tasks to finish before continuing execution. 
         public Threading14(params string[] args) : base(args)
         {
         }
 
         public override void Start(params string[] args)
         {
-            Task<Int32[]> parent = Task.Run(() =>
+            var tasks = new Task[3];
+            tasks[0] = Task.Run(() =>
             {
-                var results = new Int32[3];
-
-                var tf = new TaskFactory(TaskCreationOptions.AttachedToParent, TaskContinuationOptions.ExecuteSynchronously);
-
-                tf.StartNew(() => results[0] = 0);
-                tf.StartNew(() => results[1] = 1);
-                tf.StartNew(() => results[2] = 2);
-
-                return results;
-
+                Thread.Sleep(1000);
+                Console.WriteLine("1");
+                return 1;
             });
 
-            var finalTask = parent.ContinueWith(parentTask =>
+            tasks[1] = Task.Run(() =>
             {
-                foreach (var item in parentTask.Result)
-                {
-                    Console.WriteLine(item);
-                }
+                Thread.Sleep(1000);
+                Console.WriteLine("2");
+                return 2;
             });
 
-            finalTask.Wait();
+            tasks[2] = Task.Run(() =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("3");
+                return 3;
+            });
+
+            Task.WaitAll(tasks);
             Console.ReadKey();
         }
 
