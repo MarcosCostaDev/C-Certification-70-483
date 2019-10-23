@@ -42,6 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter-01\Objective-01-01\Threading34.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading33.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading32.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading31.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading30.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading29.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading28.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading27.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading26.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading25.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading24.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading23.cs" />
+    <Compile Include="Chapter-01\Objective-01-01\Threading22.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading19.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading18.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading17.cs" />
@@ -69,6 +82,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Chapter-01\Objective-01-02\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

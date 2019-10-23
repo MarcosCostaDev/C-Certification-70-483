@@ -9,11 +9,11 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using Parallel.Break
     class Threading17 : Starting
     {
-        //You can cancel the loop by using the ParallelLoopState object. You have two options to do this: Break or Stop. Break ensures that all iterations that are currently running will be finished. Stop just terminates everything.
         public Threading17(params string[] args) : base(args)
         {
         }
 
+        //You can cancel the loop by using the ParallelLoopState object. You have two options to do this: Break or Stop. Break ensures that all iterations that are currently running will be finished. Stop just terminates everything.
         public override void Start(params string[] args)
         {
             var result = Parallel.For(0, 1000, (int i, ParallelLoopState loopState) =>

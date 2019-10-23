@@ -11,10 +11,11 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using Task.WaitAll
     class Threading14 : Starting
     {
-        //you can use the method WaitAll to wait for multiple Tasks to finish before continuing execution. 
         public Threading14(params string[] args) : base(args)
         {
         }
+
+        //you can use the method WaitAll to wait for multiple Tasks to finish before continuing execution. 
 
         public override void Start(params string[] args)
         {

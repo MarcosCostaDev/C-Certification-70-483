@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Queuing some work to the thread pool
     class Threading07 : Starting
     {
-
         public Threading07(params string[] args) : base(args)
         {
         }

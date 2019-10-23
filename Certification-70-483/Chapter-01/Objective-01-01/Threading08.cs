@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Starting a new Task
     class Threading08 : Starting
     {
-
         public Threading08(params string[] args) : base(args)
         {
         }

@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Scheduling different continuation tasks.
     class Threading11 : Starting
     {
-
         public Threading11(params string[] args) : base(args)
         {
         }

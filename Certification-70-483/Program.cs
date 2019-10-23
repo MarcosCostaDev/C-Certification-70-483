@@ -11,7 +11,9 @@ namespace Certification_70_483
     {
         static void Main(string[] args)
         {
-            new Threading18(args);
+            new Threading33(args);
+
+            Console.ReadKey();
 
         }
     }

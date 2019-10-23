@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using a TaskFactory
     class Threading13 : Starting
     {
-
         public Threading13(params string[] args) : base(args)
         {
         }

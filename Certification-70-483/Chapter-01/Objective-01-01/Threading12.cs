@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Attaching child tasks to a parent task
     class Threading12 : Starting
     {
-
         public Threading12(params string[] args) : base(args)
         {
         }

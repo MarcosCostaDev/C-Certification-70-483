@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using a Task that returns a value.
     class Threading09 : Starting
     {
-
         public Threading09(params string[] args) : base(args)
         {
         }

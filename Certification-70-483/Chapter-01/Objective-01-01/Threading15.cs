@@ -9,7 +9,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Using Task.Wait Any
     class Threading15 : Starting
     {
-
         public Threading15(params string[] args) : base(args)
         {
         }

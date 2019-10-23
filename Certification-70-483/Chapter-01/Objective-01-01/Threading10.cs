@@ -11,7 +11,6 @@ namespace Certification_70_483.Chapter_01.Objective_01_01
     //Adding a continuation.
     class Threading10 : Starting
     {
-
         public Threading10(params string[] args) : base(args)
         {
         }
