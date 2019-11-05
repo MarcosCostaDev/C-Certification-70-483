@@ -88,6 +88,15 @@
     <Compile Include="Chapter-01\Objective-01-01\Threading03.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading02.cs" />
     <Compile Include="Chapter-01\Objective-01-01\Threading01.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event85.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event84.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event83.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event82.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event81.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event80.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event77.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event76.cs" />
+    <Compile Include="Chapter-01\Objective-01-04\Event75.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\IStarting.cs" />
