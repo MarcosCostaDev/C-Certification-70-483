@@ -101,6 +101,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Shared\IStarting.cs" />
     <Compile Include="Shared\Starting.cs" />
+    <Compile Include="Simulator\Question280.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
