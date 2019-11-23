@@ -15,7 +15,7 @@ namespace Certification_70_483
     {
         static void Main(string[] args)
         {
-            new Question062(args);
+            new Question066(args);
 
             Console.ReadKey();
 

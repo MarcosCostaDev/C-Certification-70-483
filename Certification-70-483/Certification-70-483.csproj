@@ -113,10 +113,16 @@
     <Compile Include="Shared\Starting.cs" />
     <Compile Include="Simulator\Question058.cs" />
     <Compile Include="Simulator\Question062.cs" />
+    <Compile Include="Simulator\Question066.cs" />
     <Compile Include="Simulator\Question280.cs" />
+    <Compile Include="Simulator\Question064.cs" />
+    <Compile Include="Simulator\Question069.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="AppContent\sample.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
